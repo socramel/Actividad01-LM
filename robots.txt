@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Site-map: https://www.actividad01.com/sitemap.xml

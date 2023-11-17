@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(231, 231, 231);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#indexbody{
+    margin: 0;
+    padding: 0;
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    animation: cambiarFondo 20s infinite;
+    overflow: hidden;
+}
+
+main{
+    margin-bottom: 60px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+section#fiesta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fiesta{
+    width: 25%;
+    margin: 15px;
+}
+
+section#bisuteria{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.bisuteria{
+    width: 25%;
+    margin: 15px;
+}
+
+section#camisas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.camisas{
+    width: 25%;
+    margin: 15px;
+}
+
+section#zapatos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.zapatos{
+    width: 25%;
+    margin: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(129, 126, 126);
+    transition: color 0.1s ease-in-out;
+}
+
+a:hover{
+    color: rgb(47, 46, 46);
+}
+
+.logo{
+    width: 20%;
+    height: 20%;
+    margin: 50px;
+    background-color: rgb(231, 231, 231, 0.2);
+}
+
+ul{
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    margin-right: 5vw;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    flex-direction: row;
+    background-color: rgb(231, 231, 231, 0.8);
+    width: 100vw;
+}
+
+@keyframes cambiarFondo {
+    0%{
+        background-image: url(./img/mujer1.jpg);
+    }
+    50%{
+        background-image: url(./img/hombre1.jpg);
+    }
+    75%{
+        background-image: url(./img/mujer2.png);
+    }
+    100%{
+        background-image: url(./img/hombre2.jpg);
+    }
+}
